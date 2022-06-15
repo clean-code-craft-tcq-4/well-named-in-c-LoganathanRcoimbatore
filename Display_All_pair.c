@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include"main.h"
 #include "Display_All_pair.h"
+#include "Get_ColourCode.h"
 
 void Display_AllPair_ColorCode(void)
 {
@@ -16,7 +17,7 @@ void Display_AllPair_ColorCode(void)
     {
         for(MinorColor_Index = 0; MinorColor_Index < numberOfMinorColors; MinorColor_Index++)
         {
-            printf("|   %d \t  |  %s\t|  %s\t|\n",Pair_Number++, majorColors[MajorColor_Index], minorColors[MinorColor_Index]);
+            printf("|   %d \t  |  %s\t|  %s\t|\n",Pair_Number++,  MajorColorNames[MajorColor_Index], MinorColorNames[MinorColor_Index]);
         }
         printf("\n");
     }
