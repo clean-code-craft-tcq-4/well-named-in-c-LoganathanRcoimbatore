@@ -1,7 +1,6 @@
 #include <stdio.h>
-#include"main.h"
 #include "Display_All_pair.h"
-#include "Get_ColourCode.h"
+
 
 void Display_AllPair_ColorCode(void)
 {
