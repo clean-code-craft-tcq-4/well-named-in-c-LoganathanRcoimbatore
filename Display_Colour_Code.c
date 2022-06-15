@@ -15,7 +15,7 @@ void Display_AllPair_ColorCode(void)
     {
         for(minorColorIndex = 0; minorColorIndex < numberOfMinorColors; minorColorIndex++)
         {
-            printf("|   %d \t  |  %s\t|  %s\t|\n",PairNumber++, majorColors[majorColorIndex], minorColors[minorColorIndex]);
+            printf("|  %d \t | %s\t|  %s\t  | \n",PairNumber++, majorColors[majorColorIndex], minorColors[minorColorIndex]);
         }
       
     }
