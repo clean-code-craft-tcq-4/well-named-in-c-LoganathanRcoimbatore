@@ -1,5 +1,6 @@
 #include "ColourCode_if.h"
 
+
 const char* majorColors[] = {"White", "Red", "Black", "Yellow", "Violet"};
 const char* minorColors[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
 int numberOfMajorColors = sizeof(majorColors) / sizeof(majorColors[0]);
@@ -39,6 +40,7 @@ void Display_AllPair_ColorCode(void)
         }
         printf("\n---------------------------------------- \n");
     }
- 
+    printf("\n---------------------------------------- \n");
 
 }
+
