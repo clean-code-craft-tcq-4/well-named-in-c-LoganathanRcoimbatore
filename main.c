@@ -1,7 +1,5 @@
-#include "main.h"
-#include "Get_ColourCode.h"
-#include "Test_ColourCode.h"
-#include "Display_All_pair.h"
+#include "ColourCode_if.h"
+
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
@@ -10,7 +8,7 @@ int main() {
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
 
-    Display_AllPair_ColorCode();
+    Display_AllPair_ColorCode();  
 
     return 0;
 }
