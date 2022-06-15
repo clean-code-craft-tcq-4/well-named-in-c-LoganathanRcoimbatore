@@ -24,20 +24,21 @@ int GetPairNumberFromColor(const ColorPair* colorPair) {
 
 void Display_AllPair_ColorCode(void)
 {
-    int MajorColor_Index;
-    int MinorColor_Index;
+    int majorColorIndex;
+    int minorColorIndex;
     int PairNumber = 1;
 
 
     printf("| Pair No. | Major Color | Minor Color |");
     printf("\n---------------------------------------- \n");
-    for(MajorColor_Index = 0; MajorColor_Index < numberOfMajorColors; MajorColor_Index++)
+    for(majorColorIndex = 0; majorColorIndex < numberOfMajorColors; majorColorIndex++)
     {
-        for(MinorColor_Index = 0; MinorColor_Index < numberOfMinorColors; MinorColor_Index++)
+        for(minorColorIndex = 0; minorColorIndex < numberOfMinorColors; minorColorIndex++)
         {
-            printf("|   %d \t  |  %s\t|  %s\t|\n",PairNumber++, majorColors[MajorColor_Index], minorColors[MinorColor_Index]);
+            printf("|   %d \t  |  %s\t|  %s\t|\n",PairNumber++, majorColors[majorColorIndex], minorColors[minorColorIndex]);
         }
         printf("\n---------------------------------------- \n");
     }
+ 
 
 }
