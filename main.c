@@ -1,6 +1,7 @@
-#include <main.h>
-#include"TestNumber_To_Pair.h"
-#include"TestPair_To_Number.h"
+#include "main.h"
+#include "Get_ColourCode.h"
+#include "Test_ColourCode.h"
+#include "Display_All_pair.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
